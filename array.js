@@ -44,11 +44,11 @@ var request = "empty";
 if (start === "y"||"Y") {
   while (request !== "quit") {
     request = prompt("Please select an action: add, remove, display, or quit.")
-    if (request === "add") {
+    if (request === "add"||"ADD"||"Add") {
       addNew();
-    }else if (request === "display") {
+    }else if (request === "display"||"DISPLAY"||"Display") {
       display();
-    }else if (request == "remove") {
+    }else if (request == "remove"||"REMOVE"||"Remove") {
       remove();
     }
   }
