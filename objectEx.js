@@ -22,6 +22,5 @@ var employee={
   age:31,
   lastName:function(){
     console.log(this.name.split(" ")[1])
-  }
-
+  };
 }
